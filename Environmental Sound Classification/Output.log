@@ -1,0 +1,1521 @@
+D:\Anaconda3\lib\site-packages\h5py\__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+n_dim 40n_classes 10
+2018-12-21 23:19:06.649885: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2018-12-21 23:19:06.893795: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.797
+pciBusID: 0000:01:00.0
+totalMemory: 8.00GiB freeMemory: 6.63GiB
+2018-12-21 23:19:06.894226: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2018-12-21 23:19:07.644590: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-12-21 23:19:07.644821: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2018-12-21 23:19:07.644974: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2018-12-21 23:19:07.645202: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6384 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Large MLP Accuracy =  58.43041075072648
+1
+Large MLP Accuracy =  56.59104845481442
+2
+Large MLP Accuracy =  24.340895128937166
+3
+Large MLP Accuracy =  24.647455524988953
+4
+Large MLP Accuracy =  50.39852852473443
+5
+Large MLP Accuracy =  53.15757205631015
+6
+Large MLP Accuracy =  23.421213970017682
+7
+Large MLP Accuracy =  19.129368474628208
+8
+Large MLP Accuracy =  49.78540774359431
+9
+Large MLP Accuracy =  59.90190069635977
+10
+Large MLP Accuracy =  12.691600241593829
+11
+Large MLP Accuracy =  12.691600241593829
+12
+Large MLP Accuracy =  57.44941755352687
+13
+Large MLP Accuracy =  57.20416923595454
+14
+Large MLP Accuracy =  24.156958895326024
+15
+Large MLP Accuracy =  22.501532778207835
+16
+Large MLP Accuracy =  56.16186384333196
+17
+Large MLP Accuracy =  54.44512565321603
+18
+Large MLP Accuracy =  18.025751060170677
+19
+Large MLP Accuracy =  23.973022674505586
+20
+Large MLP Accuracy =  56.03923974484479
+21
+Large MLP Accuracy =  56.89760879239445
+22
+Large MLP Accuracy =  22.7467811103981
+23
+Large MLP Accuracy =  24.46351928772333
+24
+Large MLP Accuracy =  51.440833866194225
+25
+Large MLP Accuracy =  53.15757200880186
+26
+Large MLP Accuracy =  22.930717325736815
+27
+Large MLP Accuracy =  20.294297965737957
+28
+Large MLP Accuracy =  56.59104839634267
+29
+Large MLP Accuracy =  58.61434698616487
+30
+Large MLP Accuracy =  12.691600241593829
+31
+Large MLP Accuracy =  12.691600241593829
+32
+Large MLP Accuracy =  54.07725317868479
+33
+Large MLP Accuracy =  59.166155750951766
+34
+Large MLP Accuracy =  22.07234824895128
+35
+Large MLP Accuracy =  12.691600241593829
+36
+Large MLP Accuracy =  65.23605151676387
+37
+Large MLP Accuracy =  56.77498468294383
+38
+Large MLP Accuracy =  33.23114656144896
+39
+Large MLP Accuracy =  24.83139175860009
+40
+Large MLP Accuracy =  37.95217660071293
+41
+Large MLP Accuracy =  48.559166177659584
+42
+Large MLP Accuracy =  23.359901876920283
+43
+Large MLP Accuracy =  21.15266707175937
+44
+Large MLP Accuracy =  41.01778052834044
+45
+Large MLP Accuracy =  46.59717961880855
+46
+Large MLP Accuracy =  22.5628448566873
+47
+Large MLP Accuracy =  22.93071732756406
+48
+Large MLP Accuracy =  50.95033723835854
+49
+Large MLP Accuracy =  47.57817287082543
+50
+Large MLP Accuracy =  12.691600241593829
+51
+Large MLP Accuracy =  12.691600241593829
+52
+Large MLP Accuracy =  45.800122587612115
+53
+Large MLP Accuracy =  53.03494784818844
+54
+Large MLP Accuracy =  21.09135496952576
+55
+Large MLP Accuracy =  12.691600241593829
+56
+Large MLP Accuracy =  56.16186384698645
+57
+Large MLP Accuracy =  59.16615568882552
+58
+Large MLP Accuracy =  23.91171057958094
+59
+Large MLP Accuracy =  23.42121396819044
+60
+Large MLP Accuracy =  61.925199278873
+61
+Large MLP Accuracy =  67.68853465228779
+62
+Large MLP Accuracy =  21.15266706993213
+63
+Large MLP Accuracy =  27.713059445307493
+64
+Large MLP Accuracy =  61.74126303978012
+65
+Large MLP Accuracy =  55.36480682309898
+66
+Large MLP Accuracy =  22.072348278187157
+67
+Large MLP Accuracy =  20.4782341865584
+68
+Large MLP Accuracy =  55.11955857130737
+69
+Large MLP Accuracy =  65.66523600399384
+70
+Large MLP Accuracy =  12.691600241593829
+71
+Large MLP Accuracy =  12.691600241593829
+72
+Large MLP Accuracy =  66.0331084748706
+73
+Large MLP Accuracy =  67.25935004445982
+74
+Large MLP Accuracy =  22.746781112225346
+75
+Large MLP Accuracy =  22.685469013646216
+76
+Large MLP Accuracy =  71.6125076165015
+77
+Large MLP Accuracy =  62.538320008850334
+78
+Large MLP Accuracy =  38.626609463986995
+79
+Large MLP Accuracy =  42.611894568806406
+80
+Large MLP Accuracy =  64.31637028475468
+81
+Large MLP Accuracy =  63.15144079364493
+82
+Large MLP Accuracy =  22.9307173293913
+83
+Large MLP Accuracy =  24.831391776872515
+84
+Large MLP Accuracy =  57.81729002440363
+85
+Large MLP Accuracy =  55.487430983712386
+86
+Large MLP Accuracy =  22.256284482562418
+87
+Large MLP Accuracy =  27.896995699018294
+88
+Large MLP Accuracy =  60.63764557233257
+89
+Large MLP Accuracy =  59.10484366881782
+90
+Large MLP Accuracy =  12.691600241593829
+91
+Large MLP Accuracy =  12.691600241593829
+92
+Large MLP Accuracy =  68.48559161404903
+93
+Large MLP Accuracy =  64.80686691259037
+94
+Large MLP Accuracy =  23.666462267490342
+95
+Large MLP Accuracy =  23.727774362414984
+96
+Large MLP Accuracy =  72.65481295065234
+97
+Large MLP Accuracy =  70.63151442295637
+98
+Large MLP Accuracy =  23.421213970017682
+99
+Large MLP Accuracy =  37.400367835926026
+100
+Large MLP Accuracy =  54.935622277397236
+101
+Large MLP Accuracy =  59.71796445361242
+102
+Large MLP Accuracy =  23.666462267490342
+103
+Large MLP Accuracy =  26.548129974297407
+104
+Large MLP Accuracy =  57.14285710631229
+105
+Large MLP Accuracy =  56.652360474822125
+106
+Large MLP Accuracy =  22.93071734583648
+107
+Large MLP Accuracy =  22.869405247257358
+108
+Large MLP Accuracy =  53.28019621326907
+109
+Large MLP Accuracy =  51.25689757228409
+110
+Large MLP Accuracy =  12.691600241593829
+111
+Large MLP Accuracy =  12.691600241593829
+112
+Large MLP Accuracy =  54.567749861337745
+113
+Large MLP Accuracy =  49.04966274702352
+114
+Large MLP Accuracy =  23.72777436058774
+115
+Large MLP Accuracy =  24.034334756639527
+116
+Large MLP Accuracy =  64.50030651653859
+117
+Large MLP Accuracy =  56.40711216090428
+118
+Large MLP Accuracy =  27.038626596651365
+119
+Large MLP Accuracy =  22.992029418834218
+120
+Large MLP Accuracy =  65.60392392916887
+121
+Large MLP Accuracy =  62.8448804560649
+122
+Large MLP Accuracy =  39.85285097875893
+123
+Large MLP Accuracy =  30.839975464205153
+124
+Large MLP Accuracy =  60.33108518358975
+125
+Large MLP Accuracy =  63.76456157113057
+126
+Large MLP Accuracy =  25.935009173057622
+127
+Large MLP Accuracy =  28.32618023192934
+128
+Large MLP Accuracy =  62.17044754162805
+129
+Large MLP Accuracy =  62.5383200636676
+130
+Large MLP Accuracy =  12.691600241593829
+131
+Large MLP Accuracy =  12.691600241593829
+132
+Large MLP Accuracy =  66.89147762840032
+133
+Large MLP Accuracy =  67.74984673076726
+134
+Large MLP Accuracy =  27.038626582033427
+135
+Large MLP Accuracy =  29.858982245078636
+136
+Large MLP Accuracy =  68.914776221877
+137
+Large MLP Accuracy =  70.3249539757418
+138
+Large MLP Accuracy =  34.51870015104587
+139
+Large MLP Accuracy =  31.759656628606365
+140
+Large MLP Accuracy =  67.19803802445212
+141
+Large MLP Accuracy =  63.58062534300116
+142
+Large MLP Accuracy =  26.91600242324726
+143
+Large MLP Accuracy =  28.32618023375658
+144
+Large MLP Accuracy =  65.72654808612779
+145
+Large MLP Accuracy =  67.62722257746282
+146
+Large MLP Accuracy =  23.7277743587605
+147
+Large MLP Accuracy =  23.298589794786338
+148
+Large MLP Accuracy =  62.8448804560649
+149
+Large MLP Accuracy =  61.312078435606644
+150
+Large MLP Accuracy =  12.691600241593829
+151
+Large MLP Accuracy =  12.691600241593829
+152
+Large MLP Accuracy =  70.57020228600517
+153
+Large MLP Accuracy =  68.79215201010082
+154
+Large MLP Accuracy =  38.93316979791254
+155
+Large MLP Accuracy =  23.789086440894444
+156
+Large MLP Accuracy =  74.43286323386566
+157
+Large MLP Accuracy =  67.87247088772618
+158
+Large MLP Accuracy =  34.27345184260976
+159
+Large MLP Accuracy =  41.81483754491894
+160
+Large MLP Accuracy =  57.388105416575655
+161
+Large MLP Accuracy =  60.02452478388348
+162
+Large MLP Accuracy =  25.812385034371122
+163
+Large MLP Accuracy =  23.850398519373904
+164
+Large MLP Accuracy =  58.24647457010536
+165
+Large MLP Accuracy =  57.81729002074915
+166
+Large MLP Accuracy =  29.613733876343524
+167
+Large MLP Accuracy =  23.666462285762766
+168
+Large MLP Accuracy =  61.37339057255785
+169
+Large MLP Accuracy =  54.56774986499223
+170
+Large MLP Accuracy =  12.691600241593829
+171
+Large MLP Accuracy =  12.691600241593829
+172
+Large MLP Accuracy =  61.18945433711948
+173
+Large MLP Accuracy =  61.925199271564026
+174
+Large MLP Accuracy =  23.850398502928723
+175
+Large MLP Accuracy =  23.4825260466699
+176
+Large MLP Accuracy =  67.2593500481143
+177
+Large MLP Accuracy =  65.48129977586443
+178
+Large MLP Accuracy =  26.854690363040223
+179
+Large MLP Accuracy =  35.37706924975832
+180
+Large MLP Accuracy =  65.97179645851739
+181
+Large MLP Accuracy =  65.05211528132548
+182
+Large MLP Accuracy =  34.88657267673991
+183
+Large MLP Accuracy =  28.264868168067814
+184
+Large MLP Accuracy =  57.388105471392926
+185
+Large MLP Accuracy =  63.580625339346675
+186
+Large MLP Accuracy =  22.01103617047182
+187
+Large MLP Accuracy =  25.01532799769296
+188
+Large MLP Accuracy =  65.35867561890552
+189
+Large MLP Accuracy =  64.6229306734975
+190
+Large MLP Accuracy =  12.691600241593829
+191
+Large MLP Accuracy =  12.691600241593829
+192
+Large MLP Accuracy =  71.42857138106314
+193
+Large MLP Accuracy =  72.59350086851839
+194
+Large MLP Accuracy =  44.75781725711577
+195
+Large MLP Accuracy =  36.48068671355139
+196
+Large MLP Accuracy =  74.55548738351561
+197
+Large MLP Accuracy =  71.42857138106314
+198
+Large MLP Accuracy =  37.03249537418548
+199
+Large MLP Accuracy =  35.561005497987395
+200
+Large MLP Accuracy =  67.93378296986012
+201
+Large MLP Accuracy =  63.70324955477735
+202
+Large MLP Accuracy =  34.94788469674761
+203
+Large MLP Accuracy =  30.90128752075771
+204
+Large MLP Accuracy =  65.60392398764063
+205
+Large MLP Accuracy =  64.74555488527369
+206
+Large MLP Accuracy =  29.797670166599172
+207
+Large MLP Accuracy =  23.911710599680607
+208
+Large MLP Accuracy =  63.45800123720502
+209
+Large MLP Accuracy =  66.6462292633197
+210
+Large MLP Accuracy =  12.691600241593829
+211
+Large MLP Accuracy =  12.691600241593829
+212
+Large MLP Accuracy =  71.7351318319322
+213
+Large MLP Accuracy =  68.0564070646928
+214
+Large MLP Accuracy =  25.383200464915234
+215
+Large MLP Accuracy =  24.89270385169749
+216
+Large MLP Accuracy =  74.92335985439237
+217
+Large MLP Accuracy =  73.81974244541657
+218
+Large MLP Accuracy =  39.11710603700541
+219
+Large MLP Accuracy =  31.5144083311337
+220
+Large MLP Accuracy =  62.47700793402535
+221
+Large MLP Accuracy =  63.396689158725565
+222
+Large MLP Accuracy =  27.28387489777851
+223
+Large MLP Accuracy =  25.689760855485293
+224
+Large MLP Accuracy =  60.63764557964154
+225
+Large MLP Accuracy =  57.26548126327121
+226
+Large MLP Accuracy =  22.930717325736815
+227
+Large MLP Accuracy =  32.250153250960324
+228
+Large MLP Accuracy =  59.5953402966535
+229
+Large MLP Accuracy =  53.954629021725864
+230
+Large MLP Accuracy =  12.691600241593829
+231
+Large MLP Accuracy =  12.691600241593829
+232
+Large MLP Accuracy =  68.79215206491808
+233
+Large MLP Accuracy =  61.25076641194445
+234
+Large MLP Accuracy =  20.600858347171805
+235
+Large MLP Accuracy =  32.066217035621605
+236
+Large MLP Accuracy =  56.16186384698645
+237
+Large MLP Accuracy =  42.489270411847485
+238
+Large MLP Accuracy =  38.810545644608105
+239
+Large MLP Accuracy =  29.307173489427946
+240
+n_dim 52n_classes 10
+Large MLP Accuracy =  58.3690987270643
+241
+Large MLP Accuracy =  65.54261184703492
+242
+Large MLP Accuracy =  25.444512541567455
+243
+Large MLP Accuracy =  23.850398504755965
+244
+Large MLP Accuracy =  52.36051498491439
+245
+Large MLP Accuracy =  54.19987734660716
+246
+Large MLP Accuracy =  23.175965659754326
+247
+Large MLP Accuracy =  25.68976085731254
+248
+Large MLP Accuracy =  60.45370934054868
+249
+Large MLP Accuracy =  60.94420602320163
+250
+Large MLP Accuracy =  12.691600241593829
+251
+Large MLP Accuracy =  12.691600241593829
+252
+Large MLP Accuracy =  67.01410179266821
+253
+Large MLP Accuracy =  64.99080314071978
+254
+Large MLP Accuracy =  21.5818515955342
+255
+Large MLP Accuracy =  26.241569581900105
+256
+Large MLP Accuracy =  72.53218885581965
+257
+Large MLP Accuracy =  62.7222562479432
+258
+Large MLP Accuracy =  29.0619251883008
+259
+Large MLP Accuracy =  28.81667685793778
+260
+Large MLP Accuracy =  66.21704476878074
+261
+Large MLP Accuracy =  65.97179640004563
+262
+Large MLP Accuracy =  25.935009167575895
+263
+Large MLP Accuracy =  23.29858981854049
+264
+Large MLP Accuracy =  63.887185786561254
+265
+Large MLP Accuracy =  64.56161865348979
+266
+Large MLP Accuracy =  24.647455521334468
+267
+Large MLP Accuracy =  22.56284487495972
+268
+Large MLP Accuracy =  57.38810547504741
+269
+Large MLP Accuracy =  66.33966892573967
+270
+Large MLP Accuracy =  12.691600241593829
+271
+Large MLP Accuracy =  12.691600241593829
+272
+Large MLP Accuracy =  67.68853465594228
+273
+Large MLP Accuracy =  65.48129977586443
+274
+Large MLP Accuracy =  27.77437152378695
+275
+Large MLP Accuracy =  30.839975445932733
+276
+Large MLP Accuracy =  72.2256284049506
+277
+Large MLP Accuracy =  72.59350093429912
+278
+Large MLP Accuracy =  37.584304078673384
+279
+Large MLP Accuracy =  34.64132436647655
+280
+Large MLP Accuracy =  60.94420602320163
+281
+Large MLP Accuracy =  51.62477004316085
+282
+Large MLP Accuracy =  22.99202940604352
+283
+Large MLP Accuracy =  21.581851613806627
+284
+Large MLP Accuracy =  53.341508240585746
+285
+Large MLP Accuracy =  54.87431025373505
+286
+Large MLP Accuracy =  21.827099935033438
+287
+Large MLP Accuracy =  23.482526050324385
+288
+Large MLP Accuracy =  50.27590431661273
+289
+Large MLP Accuracy =  55.548743058537355
+290
+Large MLP Accuracy =  12.691600241593829
+291
+Large MLP Accuracy =  12.691600241593829
+292
+Large MLP Accuracy =  57.75597794226969
+293
+Large MLP Accuracy =  57.69466580897296
+294
+Large MLP Accuracy =  23.114653579447623
+295
+Large MLP Accuracy =  22.07234824164231
+296
+Large MLP Accuracy =  47.2716125332454
+297
+Large MLP Accuracy =  52.42182705973936
+298
+Large MLP Accuracy =  24.83139175677285
+299
+Large MLP Accuracy =  22.133660316467285
+300
+Large MLP Accuracy =  69.83445740272339
+301
+Large MLP Accuracy =  69.95708155602783
+302
+Large MLP Accuracy =  28.448804403506195
+303
+Large MLP Accuracy =  30.839975447759972
+304
+Large MLP Accuracy =  65.35867567372277
+305
+Large MLP Accuracy =  66.40098095305635
+306
+Large MLP Accuracy =  24.463519289550568
+307
+Large MLP Accuracy =  18.945432228226373
+308
+Large MLP Accuracy =  67.44328628355268
+309
+Large MLP Accuracy =  66.58491718484024
+310
+Large MLP Accuracy =  12.691600241593829
+311
+Large MLP Accuracy =  12.691600241593829
+312
+Large MLP Accuracy =  68.914776221877
+313
+Large MLP Accuracy =  70.44757819117248
+314
+Large MLP Accuracy =  32.740649878796006
+315
+Large MLP Accuracy =  27.83568360043917
+316
+Large MLP Accuracy =  75.59779271766644
+317
+Large MLP Accuracy =  74.61679952046683
+318
+Large MLP Accuracy =  39.055793958525946
+319
+Large MLP Accuracy =  35.19313301797442
+320
+Large MLP Accuracy =  71.06069896865812
+321
+Large MLP Accuracy =  68.85346408858027
+322
+Large MLP Accuracy =  33.59901903232572
+323
+Large MLP Accuracy =  26.67075413308357
+324
+Large MLP Accuracy =  67.38197420872771
+325
+Large MLP Accuracy =  62.844880401247636
+326
+Large MLP Accuracy =  25.015328012310896
+327
+Large MLP Accuracy =  26.24156956362768
+328
+Large MLP Accuracy =  66.15573263182954
+329
+Large MLP Accuracy =  68.91477617071422
+330
+Large MLP Accuracy =  12.691600241593829
+331
+Large MLP Accuracy =  12.691600241593829
+332
+Large MLP Accuracy =  72.96137340152139
+333
+Large MLP Accuracy =  72.2256284049506
+334
+Large MLP Accuracy =  27.222562839398712
+335
+Large MLP Accuracy =  24.463519309650238
+336
+Large MLP Accuracy =  75.29123238374089
+337
+Large MLP Accuracy =  75.10729609348525
+338
+Large MLP Accuracy =  35.99019005465259
+339
+Large MLP Accuracy =  35.31575718772404
+340
+Large MLP Accuracy =  57.63335378531077
+341
+Large MLP Accuracy =  63.39668910390829
+342
+Large MLP Accuracy =  27.03862658020618
+343
+Large MLP Accuracy =  25.8123850160987
+344
+Large MLP Accuracy =  55.2421826771035
+345
+Large MLP Accuracy =  46.41324343453296
+346
+Large MLP Accuracy =  22.930717340354757
+347
+Large MLP Accuracy =  23.85039851754666
+348
+Large MLP Accuracy =  54.93562228105172
+349
+Large MLP Accuracy =  54.62906188865442
+350
+Large MLP Accuracy =  12.691600241593829
+351
+Large MLP Accuracy =  12.691600241593829
+352
+Large MLP Accuracy =  67.68853459747052
+353
+Large MLP Accuracy =  56.1618639054582
+354
+Large MLP Accuracy =  24.095646831464503
+355
+Large MLP Accuracy =  22.256284458808267
+356
+Large MLP Accuracy =  43.5315757021445
+357
+Large MLP Accuracy =  65.78786021942452
+358
+Large MLP Accuracy =  32.31146533126702
+359
+Large MLP Accuracy =  27.774371540232128
+360
+Large MLP Accuracy =  71.61250767131878
+361
+Large MLP Accuracy =  70.07970571298675
+362
+Large MLP Accuracy =  33.7829552677641
+363
+Large MLP Accuracy =  42.24402209427517
+364
+Large MLP Accuracy =  62.23175961645303
+365
+Large MLP Accuracy =  65.41998774854775
+366
+Large MLP Accuracy =  30.839975445932733
+367
+Large MLP Accuracy =  25.62844879527826
+368
+Large MLP Accuracy =  71.30594728257597
+369
+Large MLP Accuracy =  74.37155120289451
+370
+Large MLP Accuracy =  12.691600241593829
+371
+Large MLP Accuracy =  12.691600241593829
+372
+Large MLP Accuracy =  74.80073569377896
+373
+Large MLP Accuracy =  76.57878596968331
+374
+Large MLP Accuracy =  33.29245859242012
+375
+Large MLP Accuracy =  37.21643160414214
+376
+Large MLP Accuracy =  78.7860207949439
+377
+Large MLP Accuracy =  74.49417530869063
+378
+Large MLP Accuracy =  53.34150829174853
+379
+Large MLP Accuracy =  35.683629647637346
+380
+Large MLP Accuracy =  73.14530963330529
+381
+Large MLP Accuracy =  74.43286328137397
+382
+Large MLP Accuracy =  43.53157574234383
+383
+Large MLP Accuracy =  37.27774373743886
+384
+Large MLP Accuracy =  65.48129977586443
+385
+Large MLP Accuracy =  68.54690375100024
+386
+Large MLP Accuracy =  27.651747366828026
+387
+Large MLP Accuracy =  27.896995733735896
+388
+Large MLP Accuracy =  73.574494186316
+389
+Large MLP Accuracy =  67.44328634202444
+390
+Large MLP Accuracy =  12.691600241593829
+391
+Large MLP Accuracy =  12.691600241593829
+392
+Large MLP Accuracy =  74.98467199134359
+393
+Large MLP Accuracy =  75.29123238739538
+394
+Large MLP Accuracy =  36.174126282782005
+395
+Large MLP Accuracy =  26.05763334280724
+396
+Large MLP Accuracy =  75.41385654069981
+397
+Large MLP Accuracy =  75.72041693309711
+398
+Large MLP Accuracy =  41.14040463230933
+399
+Large MLP Accuracy =  38.56529733434475
+400
+Large MLP Accuracy =  67.93378291504285
+401
+Large MLP Accuracy =  71.12201098866583
+402
+Large MLP Accuracy =  28.01961984135928
+403
+Large MLP Accuracy =  26.793378269942824
+404
+Large MLP Accuracy =  57.32679340022243
+405
+Large MLP Accuracy =  64.56161865348979
+406
+Large MLP Accuracy =  23.421213971844924
+407
+Large MLP Accuracy =  26.118945415804973
+408
+Large MLP Accuracy =  59.963212763875774
+409
+Large MLP Accuracy =  69.09871239884363
+410
+Large MLP Accuracy =  12.691600241593829
+411
+Large MLP Accuracy =  12.691600241593829
+412
+Large MLP Accuracy =  66.83016555357536
+413
+Large MLP Accuracy =  62.722256299105986
+414
+Large MLP Accuracy =  27.40649905291019
+415
+Large MLP Accuracy =  22.624156949784695
+416
+Large MLP Accuracy =  73.1453095821425
+417
+Large MLP Accuracy =  74.43286328502845
+418
+Large MLP Accuracy =  27.713059445307493
+419
+Large MLP Accuracy =  30.288166752408287
+420
+Large MLP Accuracy =  71.85775593407384
+421
+Large MLP Accuracy =  77.0079705775113
+422
+Large MLP Accuracy =  37.890864471070685
+423
+Large MLP Accuracy =  32.495401566705404
+424
+Large MLP Accuracy =  73.08399755848032
+425
+Large MLP Accuracy =  63.028816687848796
+426
+Large MLP Accuracy =  23.78908644637617
+427
+Large MLP Accuracy =  28.755364777631076
+428
+Large MLP Accuracy =  72.47087671886844
+429
+Large MLP Accuracy =  74.00367873567222
+430
+Large MLP Accuracy =  12.691600241593829
+431
+Large MLP Accuracy =  12.691600241593829
+432
+Large MLP Accuracy =  78.90864501402905
+433
+Large MLP Accuracy =  77.06928266329973
+434
+Large MLP Accuracy =  42.18270996097843
+435
+Large MLP Accuracy =  38.44267317738583
+436
+Large MLP Accuracy =  78.05027591166213
+437
+Large MLP Accuracy =  75.78172901523106
+438
+Large MLP Accuracy =  40.282035586586915
+439
+Large MLP Accuracy =  22.01103616316285
+440
+Large MLP Accuracy =  74.37155114807723
+441
+Large MLP Accuracy =  75.2912323800864
+442
+Large MLP Accuracy =  38.62660942013318
+443
+Large MLP Accuracy =  40.83384424539375
+444
+Large MLP Accuracy =  72.71612503278628
+445
+Large MLP Accuracy =  70.26364195207961
+446
+Large MLP Accuracy =  29.000613091548917
+447
+Large MLP Accuracy =  28.203556096897326
+448
+Large MLP Accuracy =  70.99938689383313
+449
+Large MLP Accuracy =  70.99938689017866
+450
+Large MLP Accuracy =  12.691600241593829
+451
+Large MLP Accuracy =  12.691600241593829
+452
+Large MLP Accuracy =  75.72041687827983
+453
+Large MLP Accuracy =  76.57878603546405
+454
+Large MLP Accuracy =  28.32618025020176
+455
+Large MLP Accuracy =  47.578172863516464
+456
+Large MLP Accuracy =  74.55548738351561
+457
+Large MLP Accuracy =  79.27651742277958
+458
+Large MLP Accuracy =  48.37522988740394
+459
+Large MLP Accuracy =  42.244022097929644
+460
+Large MLP Accuracy =  65.60392398398614
+461
+Large MLP Accuracy =  65.05211521919924
+462
+Large MLP Accuracy =  46.597179611499584
+463
+Large MLP Accuracy =  36.35806251091142
+464
+Large MLP Accuracy =  68.1790312289607
+465
+Large MLP Accuracy =  57.9399141228908
+466
+Large MLP Accuracy =  26.425505817338486
+467
+Large MLP Accuracy =  22.7467811103981
+468
+Large MLP Accuracy =  62.41569584823693
+469
+Large MLP Accuracy =  66.952789655717
+470
+Large MLP Accuracy =  12.691600241593829
+471
+Large MLP Accuracy =  12.691600241593829
+472
+Large MLP Accuracy =  72.65481300912408
+473
+Large MLP Accuracy =  70.26364189360787
+474
+Large MLP Accuracy =  37.09380750565497
+475
+Large MLP Accuracy =  24.340895147209586
+476
+Large MLP Accuracy =  65.60392392916887
+477
+Large MLP Accuracy =  54.62906188499993
+478
+Large MLP Accuracy =  36.17412632846306
+479
+Large MLP Accuracy =  44.45125692319022
+480
+n_dim 180n_classes 10
+Large MLP Accuracy =  84.85591656441048
+481
+Large MLP Accuracy =  80.62538320779946
+482
+Large MLP Accuracy =  57.38810542023014
+483
+Large MLP Accuracy =  36.971183348696044
+484
+Large MLP Accuracy =  78.54077248102605
+485
+Large MLP Accuracy =  75.65910485461765
+486
+Large MLP Accuracy =  56.52973631420872
+487
+Large MLP Accuracy =  30.472102995155637
+488
+Large MLP Accuracy =  83.38442673572071
+489
+Large MLP Accuracy =  78.17290001380378
+490
+Large MLP Accuracy =  12.691600241593829
+491
+Large MLP Accuracy =  12.691600241593829
+492
+Large MLP Accuracy =  82.46474556218328
+493
+Large MLP Accuracy =  83.690987128118
+494
+Large MLP Accuracy =  64.99080320284601
+495
+Large MLP Accuracy =  47.27161252593643
+496
+Large MLP Accuracy =  83.2004905039368
+497
+Large MLP Accuracy =  83.50705083420786
+498
+Large MLP Accuracy =  54.01594115867708
+499
+Large MLP Accuracy =  24.46351928772333
+500
+Large MLP Accuracy =  84.97854077984115
+501
+Large MLP Accuracy =  78.17290001380378
+502
+Large MLP Accuracy =  62.10913551796586
+503
+Large MLP Accuracy =  62.599632142147065
+504
+Large MLP Accuracy =  81.23850399259408
+505
+Large MLP Accuracy =  81.54506438864586
+506
+Large MLP Accuracy =  47.884733318040006
+507
+Large MLP Accuracy =  38.749233566128645
+508
+Large MLP Accuracy =  80.56407107084826
+509
+Large MLP Accuracy =  81.54506438499138
+510
+Large MLP Accuracy =  12.691600241593829
+511
+Large MLP Accuracy =  12.691600241593829
+512
+Large MLP Accuracy =  80.5027589923688
+513
+Large MLP Accuracy =  83.50705089267963
+514
+Large MLP Accuracy =  65.11342730133319
+515
+Large MLP Accuracy =  36.97118329022429
+516
+Large MLP Accuracy =  79.58307781883137
+517
+Large MLP Accuracy =  81.97424887953034
+518
+Large MLP Accuracy =  42.06008580036503
+519
+Large MLP Accuracy =  66.33966892939415
+520
+Large MLP Accuracy =  64.68424281044872
+521
+Large MLP Accuracy =  69.83445734425165
+522
+Large MLP Accuracy =  35.56100550895085
+523
+Large MLP Accuracy =  43.71551191931046
+524
+Large MLP Accuracy =  71.7964438519399
+525
+Large MLP Accuracy =  71.30594728623045
+526
+Large MLP Accuracy =  27.28387490508748
+527
+Large MLP Accuracy =  25.87369711102334
+528
+Large MLP Accuracy =  60.02452485697317
+529
+Large MLP Accuracy =  70.93807481535367
+530
+Large MLP Accuracy =  10.055180870631514
+531
+Large MLP Accuracy =  12.691600241593829
+532
+Large MLP Accuracy =  74.55548738351561
+533
+Large MLP Accuracy =  75.72041687462536
+534
+Large MLP Accuracy =  48.86572651523962
+535
+Large MLP Accuracy =  45.24831393976873
+536
+Large MLP Accuracy =  73.81974250023384
+537
+Large MLP Accuracy =  72.10300431011791
+538
+Large MLP Accuracy =  26.670754111156665
+539
+Large MLP Accuracy =  47.08767623568078
+540
+Large MLP Accuracy =  87.18577560144725
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_100_loss_categorical_crossentropy_optimizer_RMSprop_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+541
+Large MLP Accuracy =  85.4690373492051
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_100_loss_categorical_crossentropy_optimizer_RMSprop_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+542
+Large MLP Accuracy =  34.334763937534404
+543
+Large MLP Accuracy =  47.57817292198822
+544
+Large MLP Accuracy =  75.9656651885432
+545
+Large MLP Accuracy =  70.99938683901587
+546
+Large MLP Accuracy =  60.024524791192455
+547
+Large MLP Accuracy =  16.370324932089034
+548
+Large MLP Accuracy =  84.73329246226882
+549
+Large MLP Accuracy =  83.38442668090343
+550
+Large MLP Accuracy =  12.691600241593829
+551
+Large MLP Accuracy =  12.691600241593829
+552
+Large MLP Accuracy =  84.24279583443315
+553
+Large MLP Accuracy =  86.02084605552022
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_100_loss_categorical_crossentropy_optimizer_adam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+554
+Large MLP Accuracy =  60.085836869671915
+555
+Large MLP Accuracy =  53.70938071146251
+556
+Large MLP Accuracy =  86.02084605917472
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_100_loss_categorical_crossentropy_optimizer_nadam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+557
+Large MLP Accuracy =  82.8939301115395
+558
+Large MLP Accuracy =  58.49172282920594
+559
+Large MLP Accuracy =  74.73942367377127
+560
+Large MLP Accuracy =  86.0208461103375
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_RMSprop_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+561
+Large MLP Accuracy =  85.10116493314558
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_RMSprop_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+562
+Large MLP Accuracy =  57.8786020992286
+563
+Large MLP Accuracy =  30.47210302987324
+564
+Large MLP Accuracy =  84.30410785809534
+565
+Large MLP Accuracy =  86.14347026729642
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_adagrad_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+566
+Large MLP Accuracy =  45.248313936114236
+567
+Large MLP Accuracy =  64.80686696375315
+568
+Large MLP Accuracy =  85.83690982008186
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_adadelta_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+569
+Large MLP Accuracy =  85.77559779641966
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_adadelta_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+570
+Large MLP Accuracy =  12.691600241593829
+571
+Large MLP Accuracy =  12.691600241593829
+572
+Large MLP Accuracy =  83.87492330873911
+573
+Large MLP Accuracy =  85.59166156098128
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_adam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+574
+Large MLP Accuracy =  56.89760884355724
+575
+Large MLP Accuracy =  62.722256299105986
+576
+Large MLP Accuracy =  87.55364807232401
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_nadam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+577
+Large MLP Accuracy =  85.28510116858398
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_30_batch_size_150_loss_categorical_crossentropy_optimizer_nadam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+578
+Large MLP Accuracy =  51.62477010163261
+579
+Large MLP Accuracy =  68.73083998643862
+580
+Large MLP Accuracy =  77.25321883661186
+581
+Large MLP Accuracy =  75.72041693309711
+582
+Large MLP Accuracy =  63.64193742148062
+583
+Large MLP Accuracy =  50.214592234478786
+584
+Large MLP Accuracy =  75.5977927724837
+585
+Large MLP Accuracy =  82.09687308765203
+586
+Large MLP Accuracy =  39.79153891307017
+587
+Large MLP Accuracy =  42.18270995366946
+588
+Large MLP Accuracy =  65.60392393282335
+589
+Large MLP Accuracy =  70.69282649778135
+590
+Large MLP Accuracy =  11.097486182855434
+591
+Large MLP Accuracy =  10.055180870631514
+592
+Large MLP Accuracy =  82.83261802940555
+593
+Large MLP Accuracy =  80.38013489388163
+594
+Large MLP Accuracy =  63.335377021774356
+595
+Large MLP Accuracy =  51.318209650763556
+596
+Large MLP Accuracy =  78.96995708885403
+597
+Large MLP Accuracy =  76.94665844421456
+598
+Large MLP Accuracy =  71.91906800889882
+599
+Large MLP Accuracy =  47.27161247477365
+600
+Large MLP Accuracy =  88.90251380252663
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_RMSprop_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+601
+Large MLP Accuracy =  87.49233599384455
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_RMSprop_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+602
+Large MLP Accuracy =  44.51256893954344
+603
+Large MLP Accuracy =  69.40527284605821
+604
+Large MLP Accuracy =  86.81790313057049
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_adagrad_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+605
+Large MLP Accuracy =  87.06315138967106
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_adagrad_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+606
+Large MLP Accuracy =  64.37768241805142
+607
+Large MLP Accuracy =  57.08154502052387
+608
+Large MLP Accuracy =  87.86020840990405
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_adadelta_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+609
+Large MLP Accuracy =  87.9215204883835
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_adadelta_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+610
+Large MLP Accuracy =  12.691600241593829
+611
+Large MLP Accuracy =  12.691600241593829
+612
+Large MLP Accuracy =  87.24708762876392
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_adam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+613
+Large MLP Accuracy =  86.08215813399968
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_adam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+614
+Large MLP Accuracy =  57.02023294935338
+615
+Large MLP Accuracy =  64.80686691259037
+616
+Large MLP Accuracy =  89.3316982934111
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_nadam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+617
+Large MLP Accuracy =  85.95953397338629
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_100_loss_categorical_crossentropy_optimizer_nadam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+618
+Large MLP Accuracy =  61.86388714557627
+619
+Large MLP Accuracy =  79.76701410908701
+620
+Large MLP Accuracy =  89.2703862697489
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_RMSprop_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+621
+Large MLP Accuracy =  87.5536480759785
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_RMSprop_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+622
+Large MLP Accuracy =  29.797670111781905
+623
+Large MLP Accuracy =  61.86388720404802
+624
+Large MLP Accuracy =  86.81790307575322
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_adagrad_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+625
+Large MLP Accuracy =  84.42673201505426
+626
+Large MLP Accuracy =  62.41569590305419
+627
+Large MLP Accuracy =  74.73942361895399
+628
+Large MLP Accuracy =  84.97854077984115
+629
+Large MLP Accuracy =  87.18577560144725
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_adadelta_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+630
+Large MLP Accuracy =  12.691600241593829
+631
+Large MLP Accuracy =  12.691600241593829
+632
+Large MLP Accuracy =  88.04414464899692
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_adam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+633
+Large MLP Accuracy =  88.350705092557
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_adam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+634
+Large MLP Accuracy =  51.99264251403763
+635
+Large MLP Accuracy =  74.12630289263114
+636
+Large MLP Accuracy =  85.53034943133903
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_nadam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+637
+Large MLP Accuracy =  90.06744323516462
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_150_loss_categorical_crossentropy_optimizer_nadam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+638
+Large MLP Accuracy =  65.84917229790398
+639
+Large MLP Accuracy =  78.2955241707627
+640
+Large MLP Accuracy =  84.30410791291261
+641
+Large MLP Accuracy =  82.64868179762166
+642
+Large MLP Accuracy =  24.40220720924387
+643
+Large MLP Accuracy =  47.946045334393226
+644
+Large MLP Accuracy =  83.9975475205153
+645
+Large MLP Accuracy =  83.50705089267963
+646
+Large MLP Accuracy =  41.324340862265984
+647
+Large MLP Accuracy =  65.48129982337272
+648
+Large MLP Accuracy =  79.3991415797385
+649
+Large MLP Accuracy =  80.01226242665935
+650
+Large MLP Accuracy =  12.691600241593829
+651
+Large MLP Accuracy =  12.691600241593829
+652
+Large MLP Accuracy =  80.38013489022714
+653
+Large MLP Accuracy =  83.32311466089573
+654
+Large MLP Accuracy =  58.30778661386723
+655
+Large MLP Accuracy =  51.31820964710907
+656
+Large MLP Accuracy =  87.49233593902727
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_200_loss_categorical_crossentropy_optimizer_nadam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+657
+Large MLP Accuracy =  86.0821581303452
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_40_batch_size_200_loss_categorical_crossentropy_optimizer_nadam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+658
+Large MLP Accuracy =  72.59350092699015
+659
+Large MLP Accuracy =  48.37522993856672
+660
+Large MLP Accuracy =  90.12875537211583
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_100_loss_categorical_crossentropy_optimizer_RMSprop_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+661
+Large MLP Accuracy =  90.0674432899819
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_100_loss_categorical_crossentropy_optimizer_RMSprop_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+662
+Large MLP Accuracy =  73.51318204936477
+663
+Large MLP Accuracy =  56.71367261177335
+664
+Large MLP Accuracy =  76.27222558459499
+665
+Large MLP Accuracy =  87.61496015080348
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_100_loss_categorical_crossentropy_optimizer_adagrad_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+666
+Large MLP Accuracy =  56.52973631786321
+667
+Large MLP Accuracy =  71.612507620156
+668
+Large MLP Accuracy =  81.17719191411462
+669
+Large MLP Accuracy =  81.91293680470535
+670
+Large MLP Accuracy =  12.691600241593829
+671
+Large MLP Accuracy =  12.691600241593829
+672
+Large MLP Accuracy =  87.86020840990405
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_100_loss_categorical_crossentropy_optimizer_adam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+673
+Large MLP Accuracy =  89.94481913667745
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_100_loss_categorical_crossentropy_optimizer_adam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+674
+Large MLP Accuracy =  81.72900056561248
+675
+Large MLP Accuracy =  67.99509498621335
+676
+Large MLP Accuracy =  76.45616182003337
+677
+Large MLP Accuracy =  88.28939295560578
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_100_loss_categorical_crossentropy_optimizer_nadam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+678
+Large MLP Accuracy =  78.90864501402905
+679
+Large MLP Accuracy =  72.041692220675
+680
+Large MLP Accuracy =  85.77559779641966
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_RMSprop_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+681
+Large MLP Accuracy =  89.69957082275961
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_RMSprop_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+682
+Large MLP Accuracy =  70.99938689017866
+683
+Large MLP Accuracy =  42.73451872211084
+684
+Large MLP Accuracy =  89.45432245037001
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_adagrad_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+685
+Large MLP Accuracy =  89.08644997949325
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_adagrad_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+686
+Large MLP Accuracy =  73.57449418266151
+687
+Large MLP Accuracy =  75.65910479249142
+688
+Large MLP Accuracy =  90.0674432899819
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_adadelta_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+689
+Large MLP Accuracy =  89.39301042670783
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_adadelta_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+690
+Large MLP Accuracy =  12.691600241593829
+691
+Large MLP Accuracy =  12.691600241593829
+692
+Large MLP Accuracy =  90.37400368237918
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_adam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+693
+Large MLP Accuracy =  86.9405272875294
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_adam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+694
+Large MLP Accuracy =  79.03126911251623
+695
+Large MLP Accuracy =  61.1894543298105
+696
+Large MLP Accuracy =  89.51563458366675
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_nadam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+697
+Large MLP Accuracy =  88.90251379887214
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_150_loss_categorical_crossentropy_optimizer_nadam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+698
+Large MLP Accuracy =  72.22562845976786
+699
+Large MLP Accuracy =  78.72470871646445
+700
+Large MLP Accuracy =  89.39301042670783
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_RMSprop_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+701
+Large MLP Accuracy =  83.44573881420017
+702
+Large MLP Accuracy =  50.64377678748949
+703
+Large MLP Accuracy =  50.09196808117434
+704
+Large MLP Accuracy =  85.16247696046227
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_adagrad_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+705
+Large MLP Accuracy =  83.01655426849842
+706
+Large MLP Accuracy =  48.988350672198536
+707
+Large MLP Accuracy =  63.45800118969672
+708
+Large MLP Accuracy =  86.02084611764647
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_adadelta_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+709
+Large MLP Accuracy =  85.03985285832061
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_adadelta_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+710
+Large MLP Accuracy =  12.691600241593829
+711
+Large MLP Accuracy =  12.691600241593829
+712
+Large MLP Accuracy =  87.24708762510944
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_adam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+713
+Large MLP Accuracy =  86.45003065969372
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_adam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+714
+Large MLP Accuracy =  69.28264869275377
+715
+Large MLP Accuracy =  63.21275286846991
+716
+Large MLP Accuracy =  87.61496015080348
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_nadam_metrics_a_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+717
+Large MLP Accuracy =  87.36971178206836
+Saved model to disk as    D:/Datasets/Urban_Sound_Dataset/Models/Audio_MLP_epochs_50_batch_size_200_loss_categorical_crossentropy_optimizer_nadam_metrics_c_n_layer_7_random_state_100_test_size_0.3_dropout_0.3_activation_relu_suffix_mfccs_chroma_mel
+718
+Large MLP Accuracy =  59.5953402966535
+719
+Large MLP Accuracy =  43.8381360945418
+720
+n_dim 187n_classes 10
+Large MLP Accuracy =  80.1961985999715
+721
+Large MLP Accuracy =  82.46474550371153
+722
+Large MLP Accuracy =  25.13795215282463
+723
+Large MLP Accuracy =  60.76026978776324
+724

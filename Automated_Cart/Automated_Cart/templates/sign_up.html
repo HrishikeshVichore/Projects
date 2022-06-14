@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Signup Form</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/signup.css' %}"/>
+</head>
+<body>
+<div class="signupFrm">
+    <form class="form" method='post'>
+    {% csrf_token %}
+      <img src="{% static 'img/Walmart Logo.png' %}" alt='LOGO'>
+      <h1 class="title">Sign up</h1>
+      {% csrf_token %}
+      <div class="inputContainer">
+        <input type="text" id="fname" name="fname" class="input">
+        <label for="fname" class="label">First Name</label>
+      </div>
+      {% csrf_token %}
+      <div class="inputContainer">
+        <input type="text" class="input" placeholder="a" id="lname" name="lname">
+        <label for="lname" class="label">Last Name</label>
+      </div>
+        {% csrf_token %}
+      <div class="inputContainer">
+        <input type="text" class="input" placeholder="a" id="email" name="email">
+        <label for="email" class="label">Email</label>
+      </div>
+
+    {% csrf_token %}
+      <div class="inputContainer">
+        <input type="password" class="input" placeholder="a" id="pwd" name="pwd">
+        <label for="pwd" class="label">Password</label>
+      </div>
+    {% csrf_token %}
+      
+      <input type="submit" class="submitBtn" id="login" name = 'login_btn' value="Sign up">
+      <a href="/accounts/login/">Login Instead</a>
+      {% block content %}
+        <p>
+        <b>{{error_msg}}</b>
+      {% endblock %}
+    </form>
+  </div>
+</body>
+</html>

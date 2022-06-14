@@ -1,0 +1,128 @@
+/* spacing */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border: 3px solid purple;
+  background-color: white;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+/* typography */
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+.b1 {
+  display: block;
+  margin-left: auto;
+  padding: 15px 30px;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.b1:hover {
+  background-color: #9867C5;
+  transform: translateY(-2px);
+}
+
+.wrapper {
+    
+    position: relative;
+    display: flex;
+    min-width: 100px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+    width: 14px;
+  }
+
+  
+.search {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 25px;
+    width: 25%;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+  }
+.search:hover, .search:focus {
+    border: 1.5px solid #009688;
+    background-color: white;
+  }
+  
+.b2 {
+  display: block;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 2px;
+}
+
+.b2:hover {
+  background-color: #9867C5;
+  transform: translateY(-2px);
+}
+
+body {
+background-image: linear-gradient(to right, orange, yellow);
+}
+
+.logo {
+background-color: white;
+width: 15%;
+height: 25%;
+}
+

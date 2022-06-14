@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Cart</title>
+        
+        <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+      
+    </head>
+<body>
+    {% block content %}
+    <img src="{% static 'img/Walmart Logo.png' %}" alt='LOGO' class='logo'>
+    <p>
+    <form method = 'post' class="form">
+        {% csrf_token %}
+        <div class="wrapper">
+            <img class="search-icon" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+            <input class="search" placeholder="Search" type="text" id = 'search_box' name = 'search_box' >
+            {% csrf_token %}
+            <button type="submit" name = 'b1' class='b2' id="search_button" value = 'search'>Lookup Product</button>
+            <button type="submit" name = 'b1' class='b2' id="logout" value = 'logout'>Log Out</button>
+            <button type="submit" class='b2' >Show Cart</button>
+            {% csrf_token %}
+            <button type="submit" name = 'b1' id="update_cart" class='b2' value = 'barcode' onclick="check(); return False;">Scan Barcode</button>
+            {% with flag="False" %}
+            {% endwith %}
+        </div>  
+       
+    </form>
+    
+    {% if search_product %}
+    <form method='post' action="/cart/">
+    {% csrf_token %}
+    <button type="submit" name='b1' class='b1' value='add_selected'>Add Selected</button>
+        <table border="1" align="left" id="product_table">
+            <tr>
+            {% csrf_token %}
+                <th>Selection</th>
+                <th>Name</th>
+                <th>Size</th>
+                <th>Price</th>
+                <th>Brand</th>
+            </tr>
+            {% for key, val in product %}
+            {% csrf_token %}
+            <tr align="center">
+                <td><input type="checkbox" id={{key}} name='product_list' value={{val.4}} />&nbsp;</td>
+                <td>{{val.0}}</td>
+                <td>{{val.1}}</td>
+                <td>{{val.2}}</td>
+                <td>{{val.3}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% csrf_token %}
+        <button type="submit" name='b1' class='b1' value='add_selected'>Add Selected</button>
+    </form> 
+    {% endif %}
+    
+
+    {% if flag %}
+    <form method='post' action="/cart/">
+    {% csrf_token %}
+        <table border="1" align="left" id="cart">
+        {% csrf_token %}
+            <tr>
+                <th>Selection</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+            {% for i in found %}
+            {% csrf_token %}
+            <tr align="center">
+                <td><input type="checkbox" id={{i.3}} name='cart_items' value={{i.3}} />&nbsp;</td>
+                <td>{{i.0}}</td>
+                <td>{{i.1}}</td>
+                <td>{{i.2}}</td>
+            </tr>
+            {% endfor %}
+            <tr align="center">
+                <td></td>
+                <td>Total items: {{l}}</td>
+                <td>Total amount: {{p}}</td>
+                <td>Total quantity: {{w}}</td>
+            </tr>
+            </table>
+            {% csrf_token %}
+            <button type="submit" name = 'b1' value = 'checkout' class='b1'>Checkout</button> <p>
+            {% csrf_token %}
+            <button type="submit" name = 'b1' class='b1' value = 'remove_item'>Remove Selected Item</button>
+        
+    </form>
+    {% endif %}
+    {% endblock %}
+
+</body>
+
+</html>

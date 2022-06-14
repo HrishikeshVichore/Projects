@@ -1,0 +1,40 @@
+<!-- templates/registration/login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% load static %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Form</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}"/>
+</head>
+<body>
+<div class="signupFrm">
+    
+    <form class="form" method="post" action="/login_check/">
+    {% csrf_token %}
+      <img src="{% static 'img/Walmart Logo.png' %}" alt='LOGO'>
+      <h1 class="title">Log In</h1>
+        {% csrf_token %}
+      <div class="inputContainer">
+        <input type="text" class="input" placeholder="a" id="email" name="email">
+        <label for="email" class="label">Email</label>
+      </div>
+
+    {% csrf_token %}
+      <div class="inputContainer">
+        <input type="password" class="input" placeholder="a" id="pwd" name="pwd">
+        <label for="pwd" class="label">Password</label>
+      </div>
+    {% csrf_token %}
+      <input type="submit" class="submitBtn" id="login" name = 'login_btn' value="Login">
+      <a href="signup/">Not with us yet?<br>Sign Up</a>
+      {% block content %}
+        <p>
+        <b>{{error_msg}}</b>
+      {% endblock %}
+    </form>
+  </div>
+</body>
+</html>
