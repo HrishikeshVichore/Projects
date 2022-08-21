@@ -1,24 +1,52 @@
 function Cartilage1D_Wrapper
 %CARTILAGE1D_WRAPPER Summary of this function goes here
 %   Detailed explanation goes here
+rng(1); nz = 13; np=12; 
 
 %for space/time point
-nz=5; % number of space/time points
+% nz=13; number of space/time points
 
 %for parameter phi0
+% np=12; number of paramtere points
+
 xmin=0.1;
 xmax=0.9;
-n=5;
-phi0=xmin+rand(1,n)*(xmax-xmin);
-u = zeros(n,nz);
+phi0=xmin+rand(1,np)*(xmax-xmin);
+u = zeros(np,nz);
 for i=1:length(phi0)
 [zu,k] = cartilage1D(phi0(i), nz);
 u(i,:) = k';
 end
+
 phi0 = phi0';
-% zu = zu';
-%histogram(phi0,100);
-%hold on
-save('test.mat', 'zu', 'phi0', 'u')
+
+
+save('train.mat', 'zu', 'phi0', 'u')
+
+
+% For testing
+
+
+% nz = 130; np=5;
+
+xmin=zu(1);
+xmax=zu(2);
+test_zu = xmin+rand(1,nz)*(xmax-xmin);
+% test_zu = zu;
+% xmin=phi0(1);
+% xmax=phi0(2);
+% test_phi0 = xmin+rand(1,np)*(xmax-xmin);
+% test_phi0 = [0.8,0.88,0.2,0.73,0.15];
+test_phi0 = [0.5];
+u1 = zeros(length(test_phi0),length(test_zu));
+
+for i=1:length(test_phi0)   
+[zu,k] = Copy_of_cartilage1D(test_phi0(i), test_zu, nz);
+u1(i,:) = k';
+
+end
+
+save('test.mat', 'u1','test_zu', 'test_phi0')
+
 end
 
