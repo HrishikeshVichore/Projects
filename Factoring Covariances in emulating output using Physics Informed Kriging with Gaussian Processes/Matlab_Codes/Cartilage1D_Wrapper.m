@@ -18,10 +18,10 @@ for i=1:length(phi0)
 u(i,:) = k';
 end
 
-phi0 = phi0';
+params = phi0';
 
 
-save('train.mat', 'zu', 'phi0', 'u')
+save('Data/train.mat', 'zu', 'params', 'u')
 
 
 % For testing
@@ -37,16 +37,16 @@ test_zu = xmin+rand(1,nz)*(xmax-xmin);
 % xmax=phi0(2);
 % test_phi0 = xmin+rand(1,np)*(xmax-xmin);
 % test_phi0 = [0.8,0.88,0.2,0.73,0.15];
-test_phi0 = [0.5];
-u1 = zeros(length(test_phi0),length(test_zu));
+test_params = [0.5];
+u1 = zeros(length(test_params),length(test_zu));
 
-for i=1:length(test_phi0)   
-[zu,k] = Copy_of_cartilage1D(test_phi0(i), test_zu, nz);
+for i=1:length(test_params)   
+[zu,k] = Copy_of_cartilage1D(test_params(i), test_zu, nz);
 u1(i,:) = k';
 
 end
 
-save('test.mat', 'u1','test_zu', 'test_phi0')
+save('Data/test.mat', 'u1','test_zu', 'test_params')
 
 end
 

@@ -20,6 +20,7 @@ for i=1:length(E0)
     for j=1:length(k0)
         [zu,k] = New_Cartilage1D(E0(i), k0(j),nz);
         u(count,:) = k';
+        disp(size(k));
         params(count,:) = [E0(i), k0(j)];
         count = count + 1;
     end

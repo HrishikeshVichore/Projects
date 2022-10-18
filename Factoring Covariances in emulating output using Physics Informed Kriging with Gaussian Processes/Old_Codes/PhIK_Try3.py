@@ -94,12 +94,15 @@ class PhIK():
             for j in range(zmg.shape[1]):
                 f1 = zmg[0][2]
                 f2 = -log(f1)
+                print(f1,f2)
                 f1,f2 = self.lambdify_h([f1,f2])
+                print(f1,f2)
                 b = Bounds(0.00001,5)
                 # b = None
                 PrintParams = minimize(fun,[1.5],args = (f1,f2),method='L-BFGS-B',bounds = b,callback = callback)
                 l_values.append(PrintParams['x'][0])
-                # print(PrintParams['x'][0])
+                print(PrintParams['x'][0])
+                exit()
                 break
             break
         # l = set(l_values)
@@ -142,7 +145,7 @@ class PhIK():
     
     def fit(self,show_loss=False):
         self.h_beta = np.mean([np.multiply(self.least_sq_fit(self.X[i], self.val_f_x[:,i]),self.h) for i in range(self.val_f_x.shape[1])])
-        # self.delta_j = self.lhc_sampling()
+        self.delta_j = self.lhc_sampling()
         print(self.delta_j)
         self.Inv_Cov_matrix = np.array([self.cov_func(self.val_a, self.val_a, matrix=1) for i in range(len(self.X))])
         # L = np.linalg.cholesky(self.Inv_Cov_matrix)

@@ -79,10 +79,10 @@ Utime(j,timestep+1)=u(j);
 end
 end
 % t;
-%size(z)
-%size(time)
-%size(Ptime)
-%size(Utime)
+% size(z)
+% size(time)
+% size(Ptime)
+% size(Utime)
 %size(meshgrid(z,time))
 % [Tg,Zg]=meshgrid(time,z);
 % figure
