@@ -1,0 +1,27 @@
+{
+  "starred": false,
+  "viewers_can_download": true,
+  "editors_can_edit_access": true,
+  "last_modified_by_any_user": "2022-09-23T19:27:20.085Z",
+  "last_modified_by_me": "2022-09-23T19:27:20.085Z",
+  "content_last_modified": "2022-09-23T19:27:20.085Z",
+  "created": "2021-12-17T02:50:46.781Z",
+  "permissions": [
+    {
+      "id": "04934699531723278022",
+      "name": "Hrishikesh Vichore",
+      "type": "user",
+      "role": "owner",
+      "kind": "drive#permission",
+      "photo_link": "https://lh3.googleusercontent.com/a/AEdFTp7j7ErsV3gzlcZLmDKvJmCbrOiN51kab6ch3MFL=s64",
+      "self_link": "https://www.googleapis.com/drive/v2/files/1IFnbpJKxot29mle_qwN4qBxsyvAW8N0U/permissions/04934699531723278022",
+      "email_address": "hvichore@buffalo.edu",
+      "domain": "buffalo.edu",
+      "etag": "\"QiTGU7tBeeYSmBLYzScp8D8oAFE\"",
+      "deleted": false,
+      "pending_owner": false
+    }
+  ],
+  "title": "load.sql",
+  "mime_type": "text/x-sql"
+}
